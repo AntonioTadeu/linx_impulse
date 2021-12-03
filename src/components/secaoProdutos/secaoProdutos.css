@@ -1,0 +1,33 @@
+.secao-produtos {
+    display: flex;
+    flex-direction: column;
+}
+
+.div-titulo-secaoProdutos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.linha-secaoProdutos {
+    width: 520px;
+}
+
+.titulo-secaoProdutos {
+    font: normal normal bold 18px/16px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #888888;
+    opacity: 1;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.produtos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
